@@ -1,4 +1,4 @@
-# What you find here
+# Data and code for "Predictive Modelling for Football Analytics"
 
-Data and reproducible R code for the book "Predictive Modelling for Football Analytics" by Leonardo Egidi, Dimitris Karlis, and Ioannis Ntzoufras, edited by CRC Press (published: 11 november 2025).
+You find here the data and reproducible R code for the book "Predictive Modelling for Football Analytics" by Leonardo Egidi, Dimitris Karlis, and Ioannis Ntzoufras, edited by CRC Press (published: 11 november 2025).
 Enjoy!
