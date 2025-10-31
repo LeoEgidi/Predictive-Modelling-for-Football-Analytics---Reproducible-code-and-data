@@ -1,0 +1,395 @@
+"","date_GMT","home_team_name","away_team_name","home_team_goal_count","away_team_goal_count"
+"1",1,"Kazakhstan","Scotland",3,0
+"2",1,"Northern Ireland","Estonia",2,0
+"3",1,"Netherlands","Belarus",4,0
+"4",1,"Slovakia","Hungary",2,0
+"5",1,"Croatia","Azerbaijan",2,1
+"6",1,"Israel","Slovenia",1,1
+"7",1,"Austria","Poland",0,1
+"8",1,"Belgium","Russia",3,1
+"9",1,"Bulgaria","Montenegro",1,1
+"10",1,"England","Czech Republic",5,0
+"11",1,"Portugal","Ukraine",0,0
+"12",1,"Luxembourg","Lithuania",2,1
+"13",1,"Moldova","France",1,4
+"14",1,"Albania","Turkey",0,2
+"15",1,"Georgia","Switzerland",0,2
+"16",1,"Sweden","Romania",2,1
+"17",1,"Spain","Norway",2,1
+"18",1,"Italy","Finland",2,0
+"19",1,"Bosnia-Herzegovina","Armenia",2,1
+"20",1,"Wales","Slovakia",1,0
+"21",1,"Kazakhstan","Russia",0,4
+"22",1,"Hungary","Croatia",2,1
+"23",1,"Israel","Austria",4,2
+"24",1,"Northern Ireland","Belarus",2,1
+"25",1,"Netherlands","Germany",2,3
+"26",1,"Slovenia","FYR Macedonia",1,1
+"27",1,"Cyprus","Belgium",0,2
+"28",1,"Turkey","Moldova",4,0
+"29",1,"Montenegro","England",1,5
+"30",1,"Kosovo","Bulgaria",1,1
+"31",1,"Portugal","Serbia",1,1
+"32",1,"Luxembourg","Ukraine",1,2
+"33",1,"France","Iceland",4,0
+"34",1,"Armenia","Finland",0,2
+"35",1,"Switzerland","Denmark",3,3
+"36",1,"Republic of Ireland","Georgia",1,0
+"37",1,"Norway","Sweden",3,3
+"38",1,"Bosnia-Herzegovina","Greece",2,2
+"39",2,"Montenegro","Kosovo",1,1
+"40",2,"Czech Republic","Bulgaria",2,1
+"41",2,"Ukraine","Serbia",5,0
+"42",2,"Lithuania","Luxembourg",1,1
+"43",2,"Denmark","Republic of Ireland",1,1
+"44",2,"Norway","Romania",2,2
+"45",2,"FYR Macedonia","Poland",0,1
+"46",2,"Austria","Slovenia",1,0
+"47",2,"Croatia","Wales",2,1
+"48",2,"Iceland","Albania",1,0
+"49",2,"Estonia","Northern Ireland",1,2
+"50",2,"Azerbaijan","Hungary",1,3
+"51",2,"Finland","Bosnia-Herzegovina",2,0
+"52",2,"Belarus","Germany",0,2
+"53",2,"Turkey","France",2,0
+"54",2,"Scotland","Cyprus",2,1
+"55",2,"Belgium","Kazakhstan",3,0
+"56",2,"Greece","Italy",0,3
+"57",2,"Czech Republic","Montenegro",3,0
+"58",2,"Bulgaria","Kosovo",2,3
+"59",2,"Ukraine","Luxembourg",1,0
+"60",2,"Serbia","Lithuania",4,1
+"61",2,"Denmark","Georgia",5,1
+"62",2,"Spain","Sweden",3,0
+"63",2,"Poland","Israel",4,0
+"64",2,"FYR Macedonia","Austria",1,4
+"65",2,"Azerbaijan","Slovakia",1,5
+"66",2,"Germany","Estonia",8,0
+"67",2,"Belarus","Northern Ireland",0,1
+"68",2,"Hungary","Wales",1,0
+"69",2,"Iceland","Turkey",2,1
+"70",2,"Albania","Moldova",2,0
+"71",2,"Russia","Cyprus",1,0
+"72",2,"Belgium","Scotland",3,0
+"73",2,"Italy","Bosnia-Herzegovina",2,1
+"74",2,"Greece","Armenia",2,3
+"75",3,"Armenia","Italy",1,3
+"76",3,"Republic of Ireland","Switzerland",1,1
+"77",3,"Romania","Spain",1,2
+"78",3,"Israel","FYR Macedonia",1,1
+"79",3,"Finland","Greece",1,0
+"80",3,"Estonia","Belarus",1,2
+"81",3,"Cyprus","Kazakhstan",1,1
+"82",3,"Germany","Netherlands",2,4
+"83",3,"Wales","Azerbaijan",2,1
+"84",3,"Slovakia","Croatia",0,4
+"85",3,"Slovenia","Poland",2,0
+"86",3,"Scotland","Russia",1,2
+"87",3,"Kosovo","Czech Republic",2,1
+"88",3,"England","Bulgaria",4,0
+"89",3,"Lithuania","Ukraine",0,3
+"90",3,"Iceland","Moldova",3,0
+"91",3,"Serbia","Portugal",2,4
+"92",3,"France","Albania",4,1
+"93",3,"Armenia","Bosnia-Herzegovina",4,2
+"94",3,"Georgia","Denmark",0,0
+"95",3,"Sweden","Norway",1,1
+"96",3,"Finland","Italy",1,2
+"97",3,"Azerbaijan","Croatia",1,1
+"98",3,"Northern Ireland","Germany",0,2
+"99",3,"Estonia","Netherlands",0,4
+"100",3,"Hungary","Slovakia",1,2
+"101",3,"Slovenia","Israel",3,2
+"102",3,"Poland","Austria",0,0
+"103",3,"Scotland","Belgium",0,4
+"104",3,"Russia","Kazakhstan",1,0
+"105",3,"Montenegro","Czech Republic",0,3
+"106",3,"England","Kosovo",5,3
+"107",3,"Luxembourg","Serbia",1,3
+"108",3,"Lithuania","Portugal",1,5
+"109",3,"Moldova","Turkey",0,4
+"110",3,"Albania","Iceland",4,2
+"111",4,"Kazakhstan","Cyprus",1,2
+"112",4,"Belarus","Estonia",0,0
+"113",4,"Netherlands","Northern Ireland",3,1
+"114",4,"Slovakia","Wales",1,1
+"115",4,"Croatia","Hungary",3,0
+"116",4,"FYR Macedonia","Slovenia",2,1
+"117",4,"Austria","Israel",3,1
+"118",4,"Russia","Scotland",4,0
+"119",4,"Montenegro","Bulgaria",0,0
+"120",4,"Czech Republic","England",2,1
+"121",4,"Ukraine","Lithuania",2,0
+"122",4,"Portugal","Luxembourg",3,0
+"123",4,"Turkey","Albania",1,0
+"124",4,"Iceland","France",0,1
+"125",4,"Georgia","Republic of Ireland",0,0
+"126",4,"Denmark","Switzerland",1,0
+"127",4,"Bosnia-Herzegovina","Finland",4,1
+"128",4,"Norway","Spain",1,1
+"129",4,"Italy","Greece",2,0
+"130",4,"Kazakhstan","Belgium",0,2
+"131",4,"Belarus","Netherlands",1,2
+"132",4,"Hungary","Azerbaijan",1,0
+"133",4,"Cyprus","Russia",0,5
+"134",4,"Estonia","Germany",0,3
+"135",4,"Wales","Croatia",1,1
+"136",4,"Slovenia","Austria",0,1
+"137",4,"Poland","FYR Macedonia",2,0
+"138",4,"Kosovo","Montenegro",2,0
+"139",4,"Bulgaria","England",0,6
+"140",4,"Ukraine","Portugal",2,1
+"141",4,"Lithuania","Serbia",1,2
+"142",4,"Moldova","Albania",0,4
+"143",4,"France","Turkey",1,1
+"144",4,"Finland","Armenia",3,0
+"145",4,"Switzerland","Republic of Ireland",2,0
+"146",4,"Sweden","Spain",1,1
+"147",4,"Romania","Norway",1,1
+"148",4,"Greece","Bosnia-Herzegovina",2,1
+"149",5,"Turkey","Iceland",0,0
+"150",5,"England","Montenegro",7,0
+"151",5,"Czech Republic","Kosovo",2,1
+"152",5,"Serbia","Luxembourg",3,2
+"153",5,"Portugal","Lithuania",6,0
+"154",5,"France","Moldova",2,1
+"155",5,"Armenia","Greece",0,1
+"156",5,"Switzerland","Georgia",1,0
+"157",5,"Romania","Sweden",0,2
+"158",5,"Bosnia-Herzegovina","Italy",0,3
+"159",5,"Cyprus","Scotland",1,2
+"160",5,"Azerbaijan","Wales",0,2
+"161",5,"Russia","Belgium",1,4
+"162",5,"Northern Ireland","Netherlands",0,0
+"163",5,"Germany","Belarus",4,0
+"164",5,"Croatia","Slovakia",3,1
+"165",5,"Israel","Poland",1,2
+"166",5,"Austria","FYR Macedonia",2,1
+"167",5,"Serbia","Ukraine",2,2
+"168",5,"Luxembourg","Portugal",0,2
+"169",5,"Kosovo","England",0,4
+"170",5,"Bulgaria","Czech Republic",1,0
+"171",5,"Moldova","Iceland",1,2
+"172",5,"Albania","France",0,2
+"173",5,"Republic of Ireland","Denmark",1,1
+"174",5,"Spain","Romania",5,0
+"175",5,"Italy","Armenia",9,1
+"176",5,"Greece","Finland",2,1
+"177",5,"Netherlands","Estonia",5,0
+"178",5,"Germany","Northern Ireland",6,1
+"179",5,"Wales","Hungary",2,0
+"180",5,"Slovakia","Azerbaijan",2,0
+"181",5,"Poland","Slovenia",3,2
+"182",5,"FYR Macedonia","Israel",1,0
+"183",5,"Belgium","Cyprus",6,1
+"184",5,"Scotland","Kazakhstan",3,1
+"185",6,"Germany","Spain",1,1
+"186",6,"Ukraine","Switzerland",2,1
+"187",6,"Russia","Serbia",3,1
+"188",6,"Turkey","Hungary",0,1
+"189",6,"Bulgaria","Republic of Ireland",1,1
+"190",6,"Finland","Wales",0,1
+"191",6,"Moldova","Kosovo",1,1
+"192",6,"Slovenia","Greece",0,0
+"193",6,"Lithuania","Kazakhstan",0,2
+"194",6,"Italy","Bosnia-Herzegovina",1,1
+"195",6,"Netherlands","Poland",1,0
+"196",6,"Norway","Austria",1,2
+"197",6,"Romania","Northern Ireland",1,1
+"198",6,"Scotland","Israel",1,1
+"199",6,"Slovakia","Czech Republic",1,3
+"200",6,"Belarus","Albania",0,2
+"201",6,"FYR Macedonia","Armenia",2,1
+"202",6,"Iceland","England",0,1
+"203",6,"Azerbaijan","Luxembourg",1,2
+"204",6,"Cyprus","Montenegro",0,2
+"205",6,"Estonia","Georgia",0,1
+"206",6,"Denmark","Belgium",0,2
+"207",6,"Portugal","Croatia",4,1
+"208",6,"Sweden","France",0,1
+"209",6,"Wales","Bulgaria",1,0
+"210",6,"Hungary","Russia",2,3
+"211",6,"Republic of Ireland","Finland",0,1
+"212",6,"Slovenia","Moldova",1,0
+"213",6,"Spain","Ukraine",4,0
+"214",6,"Switzerland","Germany",1,1
+"215",6,"Serbia","Turkey",0,0
+"216",6,"Kosovo","Greece",1,2
+"217",6,"Kazakhstan","Belarus",1,2
+"218",6,"Bosnia-Herzegovina","Poland",1,2
+"219",6,"Netherlands","Italy",0,1
+"220",6,"Austria","Romania",2,3
+"221",6,"Northern Ireland","Norway",1,5
+"222",6,"Czech Republic","Scotland",1,2
+"223",6,"Israel","Slovakia",1,1
+"224",6,"Albania","Lithuania",0,1
+"225",6,"Armenia","Estonia",2,0
+"226",6,"Georgia","FYR Macedonia",1,1
+"227",6,"Belgium","Iceland",5,1
+"228",6,"Denmark","England",0,0
+"229",6,"France","Croatia",4,2
+"230",6,"Sweden","Portugal",0,2
+"231",6,"Cyprus","Azerbaijan",0,1
+"232",6,"Luxembourg","Montenegro",0,1
+"233",7,"Luxembourg","Cyprus",2,0
+"234",7,"Montenegro","Azerbaijan",2,0
+"235",7,"Spain","Switzerland",1,0
+"236",7,"Ukraine","Germany",1,2
+"237",7,"Republic of Ireland","Wales",0,0
+"238",7,"Kazakhstan","Albania",0,0
+"239",7,"Bosnia-Herzegovina","Netherlands",0,0
+"240",7,"England","Belgium",2,1
+"241",7,"Croatia","Sweden",2,1
+"242",7,"Norway","Romania",4,0
+"243",7,"Finland","Bulgaria",2,0
+"244",7,"Armenia","Georgia",2,2
+"245",7,"Estonia","FYR Macedonia",3,3
+"246",7,"Lithuania","Belarus",2,2
+"247",7,"Poland","Italy",0,0
+"248",7,"Iceland","Denmark",0,3
+"249",7,"France","Portugal",0,0
+"250",7,"Northern Ireland","Austria",0,1
+"251",7,"Israel","Czech Republic",1,2
+"252",7,"Scotland","Slovakia",1,0
+"253",7,"Russia","Turkey",1,1
+"254",7,"Serbia","Hungary",0,1
+"255",7,"Greece","Moldova",2,0
+"256",7,"Kosovo","Slovenia",0,1
+"257",7,"Azerbaijan","Cyprus",0,0
+"258",7,"Germany","Switzerland",3,3
+"259",7,"Ukraine","Spain",1,0
+"260",7,"Montenegro","Luxembourg",1,2
+"261",7,"Finland","Republic of Ireland",1,0
+"262",7,"Lithuania","Albania",0,0
+"263",7,"Italy","Netherlands",1,1
+"264",7,"Poland","Bosnia-Herzegovina",3,0
+"265",7,"England","Denmark",0,1
+"266",7,"Iceland","Belgium",1,2
+"267",7,"Croatia","France",1,2
+"268",7,"Portugal","Sweden",3,0
+"269",7,"Norway","Northern Ireland",1,0
+"270",7,"Romania","Austria",0,1
+"271",7,"Scotland","Czech Republic",1,0
+"272",7,"Slovakia","Israel",2,3
+"273",7,"Russia","Hungary",0,0
+"274",7,"Turkey","Serbia",2,2
+"275",7,"Bulgaria","Wales",0,1
+"276",7,"Estonia","Armenia",1,1
+"277",7,"FYR Macedonia","Georgia",1,1
+"278",7,"Greece","Kosovo",0,0
+"279",7,"Moldova","Slovenia",0,4
+"280",7,"Belarus","Kazakhstan",2,0
+"281",7,"Georgia","Belarus",1,0
+"282",7,"Iceland","Romania",2,1
+"283",7,"Bulgaria","Hungary",1,3
+"284",7,"Bosnia-Herzegovina","Northern Ireland",1,1
+"285",7,"Slovakia","Republic of Ireland",0,0
+"286",7,"Scotland","Israel",0,0
+"287",7,"Norway","Serbia",1,2
+"288",7,"FYR Macedonia","Kosovo",2,1
+"289",8,"Azerbaijan","Montenegro",0,0
+"290",8,"Cyprus","Luxembourg",2,1
+"291",8,"Portugal","France",0,1
+"292",8,"Sweden","Croatia",2,1
+"293",8,"Germany","Ukraine",3,1
+"294",8,"Switzerland","Spain",1,1
+"295",8,"Slovakia","Scotland",1,0
+"296",8,"FYR Macedonia","Estonia",2,1
+"297",8,"Netherlands","Bosnia-Herzegovina",3,1
+"298",8,"Turkey","Russia",3,2
+"299",8,"Bulgaria","Finland",1,2
+"300",8,"Wales","Republic of Ireland",1,0
+"301",8,"Georgia","Armenia",1,2
+"302",8,"Belarus","Lithuania",2,0
+"303",8,"Albania","Kazakhstan",3,1
+"304",8,"Italy","Poland",2,0
+"305",8,"Belgium","England",2,0
+"306",8,"Denmark","Iceland",2,1
+"307",8,"Romania","Norway",3,0
+"308",8,"Austria","Northern Ireland",2,1
+"309",8,"Czech Republic","Israel",1,0
+"310",8,"Hungary","Serbia",1,1
+"311",8,"Moldova","Greece",0,2
+"312",8,"Slovenia","Kosovo",2,1
+"313",8,"Croatia","Portugal",2,3
+"314",8,"France","Sweden",4,2
+"315",8,"Spain","Germany",6,0
+"316",8,"Switzerland","Ukraine",3,0
+"317",8,"Luxembourg","Azerbaijan",0,0
+"318",8,"Montenegro","Cyprus",4,0
+"319",8,"Albania","Belarus",3,2
+"320",8,"Kazakhstan","Lithuania",1,2
+"321",8,"Armenia","FYR Macedonia",1,0
+"322",8,"Georgia","Estonia",0,0
+"323",8,"Bosnia-Herzegovina","Italy",0,2
+"324",8,"Poland","Netherlands",1,2
+"325",8,"Belgium","Denmark",4,2
+"326",8,"England","Iceland",4,0
+"327",8,"Austria","Norway",1,1
+"328",8,"Northern Ireland","Romania",1,1
+"329",8,"Czech Republic","Slovakia",2,0
+"330",8,"Israel","Scotland",1,0
+"331",8,"Hungary","Turkey",2,0
+"332",8,"Serbia","Russia",5,0
+"333",8,"Republic of Ireland","Bulgaria",0,0
+"334",8,"Wales","Finland",3,1
+"335",8,"Greece","Slovenia",0,0
+"336",8,"Kosovo","Moldova",1,0
+"337",8,"Georgia","FYR Macedonia",0,1
+"338",8,"Serbia","Scotland",1,1
+"339",8,"Hungary","Iceland",2,1
+"340",8,"Northern Ireland","Slovakia",1,2
+"341",9,"Turkey","Netherlands",4,2
+"342",9,"Portugal","Azerbaijan",1,0
+"343",9,"Serbia","Republic of Ireland",3,2
+"344",9,"Finland","Bosnia-Herzegovina",2,2
+"345",9,"France","Ukraine",1,1
+"346",9,"Estonia","Czech Republic",2,6
+"347",9,"Belgium","Wales",3,1
+"348",9,"Cyprus","Slovakia",0,0
+"349",9,"Slovenia","Croatia",1,0
+"350",9,"Bulgaria","Switzerland",1,3
+"351",9,"Israel","Denmark",0,2
+"352",9,"Spain","Greece",1,1
+"353",9,"Sweden","Georgia",1,0
+"354",9,"Italy","Northern Ireland",2,0
+"355",9,"Scotland","Austria",2,2
+"356",9,"Hungary","Poland",3,3
+"357",9,"Germany","Iceland",3,0
+"358",9,"Romania","FYR Macedonia",3,2
+"359",9,"Russia","Slovenia",2,1
+"360",9,"Belarus","Estonia",4,2
+"361",9,"Norway","Turkey",0,3
+"362",9,"Croatia","Cyprus",1,0
+"363",9,"Serbia","Portugal",2,2
+"364",9,"Republic of Ireland","Luxembourg",0,1
+"365",9,"Czech Republic","Belgium",1,1
+"366",9,"Kazakhstan","France",0,2
+"367",9,"Denmark","Moldova",8,0
+"368",9,"Albania","England",0,2
+"369",9,"Armenia","Iceland",2,0
+"370",9,"Georgia","Spain",1,2
+"371",9,"Bulgaria","Italy",0,2
+"372",9,"Switzerland","Lithuania",1,0
+"373",9,"Ukraine","Finland",1,1
+"374",9,"Israel","Scotland",1,1
+"375",9,"Romania","Germany",0,1
+"376",9,"Kosovo","Sweden",0,3
+"377",9,"Azerbaijan","Serbia",1,2
+"378",9,"Cyprus","Slovenia",1,0
+"379",9,"Luxembourg","Portugal",1,3
+"380",9,"Belgium","Belarus",8,0
+"381",9,"Wales","Czech Republic",1,0
+"382",9,"Montenegro","Norway",0,1
+"383",9,"Slovakia","Russia",2,1
+"384",9,"Armenia","Romania",3,2
+"385",9,"Lithuania","Italy",0,2
+"386",9,"Northern Ireland","Bulgaria",0,0
+"387",9,"Bosnia-Herzegovina","France",0,1
+"388",9,"Ukraine","Kazakhstan",1,1
+"389",9,"Austria","Denmark",0,4
+"390",9,"Moldova","Israel",1,4
+"391",9,"England","Poland",2,1
+"392",9,"Germany","FYR Macedonia",1,2
+"393",9,"Greece","Georgia",1,1
+"394",9,"Spain","Kosovo",3,1

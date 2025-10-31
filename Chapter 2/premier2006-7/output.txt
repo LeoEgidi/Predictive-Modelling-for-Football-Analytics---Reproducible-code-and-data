@@ -1,0 +1,28 @@
+          team1 goals1 goals2         team2         ht            at z
+1 Sheff Utd          1      1 Liverpool      Sheff Utd     Liverpool 0
+2 Arsenal            1      1 Aston Villa      Arsenal   Aston Villa 0
+3 Everton            2      1 Watford          Everton       Watford 1
+4 Newcastle          2      1 Wigan          Newcastle         Wigan 1
+5 Portsmouth         3      0 Blackburn     Portsmouth     Blackburn 3
+6 Reading            3      2 Middlesbrough    Reading Middlesbrough 1
+          team1 goals1 goals2         team2 ht at z
+1 Sheff Utd          1      1 Liverpool     16  9 0
+2 Arsenal            1      1 Aston Villa    1  2 0
+3 Everton            2      1 Watford        7 18 1
+4 Newcastle          2      1 Wigan         13 20 1
+5 Portsmouth         3      0 Blackburn     14  3 3
+6 Reading            3      2 Middlesbrough 15 12 1
+          team1         team2 ht at goals1 goals2
+1 Sheff Utd     Liverpool     16  9      1      1
+2 Arsenal       Aston Villa    1  2      1      1
+3 Everton       Watford        7 18      2      1
+4 Newcastle     Wigan         13 20      2      1
+5 Portsmouth    Blackburn     14  3      3      0
+6 Reading       Middlesbrough 15 12      3      2
+  ht at goals1 goals2
+1 16  9      1      1
+2  1  2      1      1
+3  7 18      2      1
+4 13 20      2      1
+5 14  3      3      0
+6 15 12      3      2

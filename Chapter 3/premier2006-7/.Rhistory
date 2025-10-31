@@ -1,0 +1,512 @@
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.01)  +
+  labs(title = 'Ranking Distribution') +
+  theme_ipsum() +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.1)  +
+  labs(title = 'Ranking Distribution') +
+  theme_ipsum() +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+#
+# Quantile Erro
+# Plot
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 1)  +
+  labs(title = 'Ranking Distribution') +
+  theme_ipsum() +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.00)  +
+  labs(title = 'Ranking Distribution') +
+  theme_ipsum() +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+#
+# Quantile Errobars of Rankings
+#
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.01)  +
+  labs(title = 'Ranking Distribution') +
+  theme_ipsum() +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.01)  +
+  labs(title = 'Ranking Distribution') +
+  theme_ipsum() +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(3, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.01)  +
+  labs(title = 'Ranking Distribution') +
+  theme_ipsum() +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(30, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+# Plot
+pdf("plot4_hist_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.01)  +
+  labs(title = 'Ranking Distribution') +
+  theme_ipsum() +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()
+pdf("plot4_hist_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.01)  +
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_errorbarh(alpha=0.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_errorbarh(alpha=0.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+help(geom_errorbar)
+df <- data.frame(
+  trt = factor(c(1, 1, 2, 2)),
+  resp = c(1, 5, 3, 4),
+  group = factor(c(1, 2, 1, 2)),
+  upper = c(1.1, 5.3, 3.3, 4.2),
+  lower = c(0.8, 4.6, 2.4, 3.6)
+)
+df
+p <- ggplot(df, aes(trt, resp, colour = group))
+p + geom_linerange(aes(ymin = lower, ymax = upper))
+p + geom_pointrange(aes(ymin = lower, ymax = upper))
+p + geom_crossbar(aes(ymin = lower, ymax = upper), width = 0.2)
+p + geom_errorbar(aes(ymin = lower, ymax = upper), width = 0.2)
+R2
+head(R2)
+apply(R2,2,quantile)
+t(apply(R2,2,quantile))
+t(apply(R2,2,quantile))[,2:4]
+as.data.frame(t(apply(R2,2,quantile))[,2:4])
+as.data.frame(t(apply(R2,2,quantile,probs=c(0.1,0.5,0.9))))
+as.data.frame(t(apply(R2,2,quantile,probs=c(0.05,0.5,0.95))))
+as.data.frame(t(apply(R2,2,quantile,probs=c(0.025,0.5,0.975))))
+R4<-as.data.frame(t(apply(R2,2,quantile,probs=c(0.025,0.5,0.975))))
+names(R4)
+names(R4)<-c("low","median","high")
+R4<-as.data.frame(t(apply(R2,2,quantile,probs=c(0.025,0.5,0.975))))
+names(R4)<-c("low","median","high")
+pdf("plot5_error_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R4, aes(y= colnames, x = median)) +
+  geom_linerange(aes(ymin = low, ymax = high))+
+  geom_errorbarh(alpha=0.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+R4<-as.data.frame(t(apply(R2,2,quantile,probs=c(0.025,0.5,0.975))))
+R4<-cbind(colnames(R4),R4)
+names(R4)<-c("Teams","low","median","high")
+pdf("plot5_error_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_linerange(aes(ymin = low, ymax = high))+
+  geom_errorbarh(alpha=0.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+last_trace()
+rlang::last_trace()
+head(R4)
+R4<-as.data.frame(t(apply(R2,2,quantile,probs=c(0.025,0.5,0.975))))
+R4<-cbind(colnames(R4),R4)
+names(R4)<-c("Teams","low","median","high")
+R4<-as.data.frame(t(apply(R2,2,quantile,probs=c(0.025,0.5,0.975))))
+R4<-cbind(rownames(R4),R4)
+names(R4)<-c("Teams","low","median","high")
+pdf("plot5_error_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_linerange(aes(ymin = low, ymax = high))+
+  geom_errorbarh(alpha=0.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_linerange(aes(xmin = low, xmax = high))+
+  geom_errorbarh(alpha=0.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_linerange(aes(xmin = low, xmax = high))+
+  geom_errorbarh(alpha=0.5,aes(xmin = low, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+  geom_linerange(aes(xmin = low, xmax = high))+
+  geom_errorbarh(alpha=0.5,aes(xmin = low, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_errorbarh(alpha=0.5,aes(xmin = low, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_errorbarh(alpha=0.5,aes(xmin = low, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+R4<-as.data.frame(t(apply(R2,2,quantile,probs=c(0.25,0.5,0.75))))
+R4<-cbind(rownames(R4),R4)
+names(R4)<-c("Teams","low","median","high")
+#pdf("plot5_error_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_errorbarh(alpha=0.5,aes(xmin = low, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+df <- data.frame(
+  trt = factor(c(1, 1, 2, 2)),
+  resp = c(1, 5, 3, 4),
+  group = factor(c(1, 2, 1, 2)),
+  upper = c(1.1, 5.3, 3.3, 4.2),
+  lower = c(0.8, 4.6, 2.4, 3.6)
+)
+p <- ggplot(df, aes(trt, resp, colour = group))
+p + geom_linerange(aes(ymin = lower, ymax = upper))
+p + geom_pointrange(aes(ymin = lower, ymax = upper))
+p + geom_crossbar(aes(ymin = lower, ymax = upper), width = 0.2)
+p + geom_errorbar(aes(ymin = lower, ymax = upper), width = 0.2)
+p <- ggplot(df, aes(trt, resp, colour = group))
+p + geom_linerange(aes(ymin = lower, ymax = upper))
+p + geom_pointrange(aes(ymin = lower, ymax = upper))
+p + geom_crossbar(aes(ymin = lower, ymax = upper), width = 0.2)
+p + geom_errorbar(aes(ymin = lower, ymax = upper), width = 0.2)
+p <- ggplot(df, aes(trt, resp, fill = group))
+p +
+ geom_col(position = "dodge") +
+ geom_errorbar(aes(ymin = lower, ymax = upper), position = "dodge", width = 0.25)
+p +
+geom_col(position = "dodge2") +
+geom_errorbar(
+  aes(ymin = lower, ymax = upper),
+  position = position_dodge2(width = 0.5, padding = 0.5)
+)
+help(geom_errorbar)
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_errorbarh(fatten = 12.5,aes(xmin = low, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_errorbarh(linewidth=5,aes(xmin = low, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_errorbarh(linewidth=1,aes(xmin = low, x=median, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1,aes(xmin = low, x=median, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=2, color="blue",aes(xmin = low, x=median, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1.5, color="blue",aes(xmin = low, x=median, xmax = high))+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1.5, color="blue",aes(xmin = low, x=median, xmax = high),alpha=0.5, pointsize=1.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1.5, color="blue",aes(xmin = low, x=median, xmax = high),alpha=0.5)+geom_point(size=1.5)
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1.5, color="blue",aes(xmin = low, x=median, xmax = high),alpha=0.5)+
+  geom_point(size=1.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1.5, color="blue",aes(xmin = low, x=median, xmax = high),alpha=0.5)+
+  geom_point(size=3.5)+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1.5, color="blue",aes(xmin = low, x=median, xmax = high),alpha=0.5)+
+  geom_point(size=2, color="blue")+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+pdf("plot5_error_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1.5, color="blue",aes(xmin = low, x=median, xmax = high),alpha=0.5)+
+  geom_point(size=2, color="blue")+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+library(reactable)
+stab2<-as.data.frame(summary.table2)
+stab2[,-1]<-apply(stab2[,-1],2, as.numeric)
+stab2
+obspts<-league(g1, g2, premier$att[i3], premier$def[i3])$points
+exppts<-apply(P,2,mean)
+rownames(stab3)<-NULL
+stab3<- data.frame( Team=names(obspts), Points=obspts, Expected_Points=round(exppts,1), Point_Difference=obspts-round(exppts,1) )
+rownames(stab3)<-NULL
+stab3<-stab3[ order( exppts,decreasing=TRUE), ]
+#
+# Table of points with bars
+#
+reactable(
+  stab3,
+  defaultColDef = colDef(
+    cell = data_bars(stab3, text_position = "inside-base")
+  )
+  , pagination =F
+)
+#
+# Table of points with bars
+#
+reactable(
+  stab3,
+  pagination = FALSE,
+  defaultColDef = colDef(
+    cell = data_bars(stab3,
+                     bar_height = 3, 
+                     text_position = "outside-end", 
+                     background = "transparent", 
+ fill_color=c("red","blue"))
+  )
+)
+#
+# Simulated League Table 
+#
+reactable(
+  stab2,
+  pagination = FALSE
+)
+#install.packages("webshot")
+#install.packages("htmlwidgets")
+library(htmlwidgets)
+library(webshot)
+rtable <- reactable(stab2, pagination = F)
+html <- "rtable.html"
+saveWidget(rtable, html)
+webshot::install_phantomjs()
+webshot(html, "rtableSnapshot.png") # you can also export to pdf
+#
+# Histograms Points 
+#
+pdf("plot2_hist_points.pdf", height=8.3, width=11.7 )
+P2<-P[,order( obspts,decreasing=TRUE)]
+obspts2<-sort(obspts,decreasing=T)
+par(mfrow=c(4,5)) 
+for (k in 1:20){ 
+hist( P2[,k], col="skyblue4",border="gray", main=paste(k,". ",colnames(P2)[k]), ylab="", xlab="" )
+abline(v=obspts2[k], col="darkred", lwd=4)
+}
+graphics.off()
+#
+# Boxplots of Points
+#
+#
+# Errobars of Points
+#
+#
+# Histograms Rankings 
+#
+R2<-R[,order( obspts,decreasing=TRUE)]
+R3 <-data.frame( teams=colnames(R2), ranks=as.vector(t(R2)) )
+obsrankings <- 21-rank(obspts)
+library(forcats)
+library(ggridges)
+library(ggplot2)
+# install.packages("viridis")
+# install.packages("hrbrthemes")
+library(viridis)
+library(hrbrthemes)
+# Plot
+pdf("plot3_hist_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R3, aes(y= teams, x = ranks, fill =teams)) +
+  geom_density_ridges(alpha=0.5, stat="binline", bins=20, scale = 3, rel_min_height = 0.01)  +
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+# --------------------------------------------- 
+# Quantile Errobars of Rankings
+#
+R4<-as.data.frame(t(apply(R2,2,quantile,probs=c(0.25,0.5,0.75))))
+R4<-cbind(rownames(R4),R4)
+names(R4)<-c("Teams","low","median","high")
+pdf("plot4_error_ranks.pdf", height=8.3, width=11.7 )
+ggplot(data = R4, aes(y= Teams, x = median)) +
+  geom_pointrange(linewidth=1.5, color="blue",aes(xmin = low, x=median, xmax = high),alpha=0.5)+
+  geom_point(size=2, color="blue")+
+  labs(title = 'Ranking Distribution') +
+    theme(
+      legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      strip.text.x = element_text(size = 8)) + 
+  xlab("League Ranking") + ylab("Team")+scale_x_reverse() +
+  scale_y_discrete(limits = rev(colnames(R2)))
+graphics.off()   
+q()

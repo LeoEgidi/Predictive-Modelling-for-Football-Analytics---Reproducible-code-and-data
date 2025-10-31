@@ -1,0 +1,19 @@
+head(chap07_ex2_soccer)
+premier_bayes<-chap07_ex2_soccer
+premier_bayes$ht <- as.numeric(premier_bayes$team1)
+premier_bayes$at <- as.numeric(premier_bayes$team2)
+head(premier_bayes)
+premier_bayes<-premier_bayes[,c(1,4,5,6,2,3)]
+head(premier_bayes)
+premier_winbugs<-premier_bayes[,3:6]
+head(premier_winbugs)
+
+tail(premier_bayes)
+premier_bayes_missing <- premier_bayes
+premier_bayes_missing$goals1[379:380] <- NA
+premier_bayes_missing$goals2[379:380] <- NA
+tail(premier_bayes_missing)
+premier_winbugs_missing<-premier_bayes_missing[,3:6]
+tail(premier_winbugs_missing)
+
+
